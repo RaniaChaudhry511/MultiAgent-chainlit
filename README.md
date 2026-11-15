@@ -58,7 +58,7 @@ Python 3.12 is recommended. The app was developed and tested on 3.12.
 4. Create a `.env` file in the project root, based on `.env.example`:
    ```
    GEMINI_API_KEY=your_key_here
-   GEMINI_MODEL=gemini-3.8-flash
+   GEMINI_MODEL=gemini-3.5-flash
    ```
    You can get an API key from Google AI Studio. `GEMINI_MODEL` is optional and falls back to the default in `gemini_config.py`.
 
